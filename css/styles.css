@@ -8,7 +8,6 @@
 }
 header {
   background-color: #e6da65;
-  max-width: 1330px;
 }
 body {
   font-family: "Chakra Petch", sans-serif;
@@ -26,7 +25,7 @@ h2 {
   font-weight: 300;
 }
 .container {
-  max-width: 1330px;
+  max-width: 1194px;
   margin: 0 auto;
   background-color: #e6da65;
 }
@@ -35,6 +34,7 @@ h2 {
   height: 83px;
   position: absolute;
   top: 5px;
+  left: 5px;
 }
 .nav-desktop {
   height: 88px;
@@ -98,33 +98,47 @@ a {
   font-weight: 300;
   font-size: 32px;
 }
-
 .features {
-  text-align: center;
   background-color: #2b2b2b;
-  height: 724px;
-  min-height: 0px;
 }
-.img-container {
-  max-width: 276px;
-  max-height: 355px;
-  position: absolute;
-  left: 75px;
-  top: 910px;
+.even-columns {
+  display: flex;
+  justify-content: space-between; /*Lager jevn plass MELLOM elementene
+  Justify-content: space-around; 
+  kan også brukes her og lager automatisk like mye plass mellom 
+  elementene 
+  OG 
+  høyre/venstre siden av elementene i forhold til containeren de er inni
+  Derfor er det viktig å spesifisere width på foreldre elementet*/
+
+  /*Styrer bredden til flex-containeren*/
+  max-width: 80%;
+  margin: 0 auto;
+  height: 600px;
 }
-.img-container2 {
-  max-width: 276px;
-  max-height: 355px;
-  position: absolute;
-  left: 531px;
-  top: 910px;
+.card {
+  max-width: 250px;
+  width: 250px;
 }
-.img-container3 {
-  max-width: 276px;
-  max-height: 355px;
-  position: absolute;
-  left: 939px;
-  top: 910px;
+
+.card h3 {
+  text-align: center;
+}
+.card img {
+  margin-bottom: 5px;
+}
+
+img {
+  width: 100%;
+}
+.button-card {
+  color: black;
+  width: 200px;
+  text-decoration: none;
+  border-style: solid;
+  font-family: "Chakra Petch";
+  background-color: #d3c033;
+  padding: 5px 15px;
 }
 
 img {
@@ -135,6 +149,7 @@ img {
 h3 {
   font-style: italic;
 }
+
 .games {
   display: flex;
   justify-content: space-between;
@@ -238,7 +253,6 @@ h3 {
   height: 83px;
   position: absolute;
   right: 75px;
-  top: 2500px;
 }
 
 .column-layout {
