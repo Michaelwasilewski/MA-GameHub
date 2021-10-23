@@ -12,7 +12,7 @@ header {
 }
 body {
   font-family: "Chakra Petch", sans-serif;
-  min-height: 100vh;
+  min-height: 1330px;
 }
 h1 {
   font-family: "Chakra Petch";
@@ -34,7 +34,6 @@ h2 {
   width: 150px;
   height: 83px;
   position: absolute;
-
   top: 5px;
 }
 .nav-desktop {
@@ -129,30 +128,30 @@ a {
 }
 
 img {
-  width: 100%; /* or any custom size */
-  height: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
 }
 h3 {
   font-style: italic;
 }
 .games {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   color: #e5e5e5;
 }
 
 .pre {
+  display: flex;
   flex: 1;
-  left: 75px;
 }
 .new {
+  display: flex;
   flex: 1;
-  left: 531px;
 }
 .used {
+  display: flex;
   flex: 1;
-  left: 939px;
 }
 
 .button2 {
@@ -247,7 +246,7 @@ h3 {
   background-color: #d3c033;
   margin: 0 auto;
   line-height: 1.65;
-  padding: 20px 50px;
+  padding: 150px 50px;
   display: flex;
 }
 .main-column {
