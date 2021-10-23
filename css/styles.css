@@ -25,16 +25,18 @@ h2 {
   font-weight: 300;
 }
 .container {
-  max-width: 1194px;
+  max-width: 1330px;
   margin: 0 auto;
   background-color: #e6da65;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
 }
 .logo {
   width: 150px;
   height: 83px;
-  position: absolute;
-  top: 5px;
-  left: 5px;
+  display: flex;
 }
 .nav-desktop {
   height: 88px;
@@ -70,8 +72,18 @@ a {
   height: 708px;
 }
 .hero-banner-text {
-  position: relative;
-  top: 200px;
+  width: 1330px;
+  height: 202px;
+
+  margin: 0 auto;
+}
+
+.hbt {
+  padding: 75px;
+}
+
+.hbt2 {
+  padding-left: 75px;
 }
 .bold {
   font-weight: 500;
@@ -91,12 +103,12 @@ a {
   width: 200px;
   border-color: black;
   border-style: solid;
-  margin-top: 200px;
-  position: absolute;
-  left: 75px;
+  display: flex;
+  justify-content: space-around;
   font-family: "Chakra Petch";
   font-weight: 300;
   font-size: 32px;
+  margin-left: 75px;
 }
 .features {
   background-color: #2b2b2b;
@@ -137,6 +149,8 @@ img {
   text-decoration: none;
   border-style: solid;
   font-family: "Chakra Petch";
+  font-size: 32px;
+  font-weight: 300;
   background-color: #d3c033;
   padding: 5px 15px;
 }
@@ -144,7 +158,6 @@ img {
 img {
   width: 100%;
   height: auto;
-  margin: 0 0 10px 0;
 }
 h3 {
   font-style: italic;
@@ -217,15 +230,21 @@ h3 {
   max-height: 810px;
 }
 .community-text {
-  position: relative;
-  bottom: 700px;
+  display: flex;
+  justify-content: center;
+
   color: #d3c033;
 }
-.community-text2 {
-  position: relative;
-  max-width: 888px;
-  left: 75px;
-  bottom: 600px;
+.community1 {
+  display: flex;
+
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #d3c033;
+}
+.community2 {
+  display: flex;
+
   font-family: "Roboto";
   font-size: 30px;
   color: #d3c033;
@@ -237,9 +256,8 @@ h3 {
   width: 200px;
   border-color: black;
   border-style: solid;
-  position: absolute;
-  left: 75px;
-  top: 2100px;
+  display: flex;
+  justify-content: ;
   font-family: "Chakra Petch";
   font-weight: 300;
   font-size: 32px;
@@ -253,6 +271,7 @@ h3 {
   height: 83px;
   position: absolute;
   right: 75px;
+  top: 2500px;
 }
 
 .column-layout {
@@ -271,8 +290,4 @@ h3 {
 }
 .sidebar-two {
   flex: 1;
-}
-@media screen and (min-width: 375px) {
-  body {
-  }
 }
