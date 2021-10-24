@@ -240,6 +240,7 @@ h3 {
   background-image: url(/img/co.png);
   background-size: cover;
   color: #d3c033;
+  opacity: 0.8;
 
   display: flex;
   justify-content: center;
@@ -262,7 +263,7 @@ h3 {
   font-family: "Chakra Petch";
   font-weight: 700;
   font-size: 62px;
-  color: #e5e5e5;
+  color: #000;
   padding-left: 75px;
 }
 
