@@ -14,12 +14,15 @@ body {
 h1 {
   font-family: "Chakra Petch";
   font-size: 62px;
-  font-weight: 600;
+  font-weight: 500;
   color: #e5e5e5;
+}
+.bold {
+  color: #2a211a;
 }
 h2 {
   font-size: 48px;
-  color: #f2f2f2;
+  color: #ffcba4;
   font-weight: 300;
 }
 .container {
@@ -231,7 +234,7 @@ h3 {
 }
 .community {
   height: 100vh;
-  background-image: url(/img/co.jpg);
+  background-image: url(/img/community.png);
   background-size: cover;
   color: #d3c033;
   display: flex;
@@ -246,27 +249,30 @@ h3 {
 .community1 {
   font-size: 72px;
   margin-left: 75px;
+  justify-content: center;
 }
 .community2 {
-  font-family: "Roboto";
-  font-style: ;
-  font-weight: 600;
-  font-size: 36px;
-  color: #1d2540;
+  font-family: "Chakra Petch";
+  font-weight: 700;
+  font-size: 62px;
+  color: #ffcba4;
+  margin-left: 75px;
 }
 
 .button5 {
   cursor: pointer;
+  color: #1d2540;
   background-color: #d3c033;
   text-align: center;
   width: 200px;
   border-color: black;
   border-style: solid;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: "Chakra Petch";
   font-weight: 300;
   font-size: 32px;
+  margin-left: 75px;
 }
 
 .footer {
@@ -275,9 +281,9 @@ h3 {
 .logo-footer {
   width: 150px;
   height: 83px;
-  position: absolute;
-  right: 75px;
-  top: 2500px;
+  display: flex;
+  float: inline-end;
+  padding-top: 20px;
 }
 
 .column-layout {
@@ -285,11 +291,11 @@ h3 {
   background-color: #d3c033;
   margin: 0 auto;
   line-height: 1.65;
-  padding: 150px 50px;
+  padding: 92px 75px;
   display: flex;
 }
 .main-column {
-  flex: 2;
+  flex: 1;
 }
 .sidebar-one {
   flex: 1;
